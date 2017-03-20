@@ -69,8 +69,8 @@ class Benchmark
             $this->generateReport();
             self::println($this->data);
             $this->logIntoFile($this->data);
-            // if (isset($this->sendEmail)) $this->mailService->sendEmailMessage(self::EMAIL_RECIPIENT, $this->data);
-            // if (isset($this->sendSMS)) $this->smsService->sendSMSMessage(self::SMS_RECIPIENT, self::SMS_MESSAGE);
+            if (isset($this->sendEmail)) $this->mailService->sendEmailMessage(self::EMAIL_RECIPIENT, $this->data);
+            if (isset($this->sendSMS)) $this->smsService->sendSMSMessage(self::SMS_RECIPIENT, self::SMS_MESSAGE);
         } catch (\Exception $e) {
             self::println($e->getMessage());
         }

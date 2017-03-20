@@ -4,7 +4,7 @@ websites (check how fast is the website's loading time in comparison to other co
 
 ## Usage instruction
 To run type the command:
-    php compare -w website_url -c "competitor1_url|competitor2_url|competitor3_url"
+* php compare -w [website_url] -c ["competitor1_url|competitor2_url|competitor3_url"]
 
 ## PARAMETERS
 * -w [website_url]    - url of site being tested
@@ -12,7 +12,7 @@ To run type the command:
 
 ## EXAMPLES
 With specified competitors:
-* php compare -c www.apple.com -w "www.google.com|www.facebook.com|www.gazeta.pl"
+* php compare -w www.apple.com -c "www.google.com|www.facebook.com|www.gazeta.pl"
 
 or with default competitors:
-* php compare -c www.apple.com
+* php compare -w www.apple.com
