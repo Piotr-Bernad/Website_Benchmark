@@ -1,0 +1,9 @@
+<?php
+require_once 'service/CustomPHPMailer.php';
+require_once 'service/SMSApiService.php';
+require_once 'Benchmark.php';
+
+$mailer = new \Service\CustomPHPMailer;
+$sms = new \Service\SMSApiService;
+$benchmark = new \Benchmark\Benchmark($mailer, $sms);
+$benchmark->run();
