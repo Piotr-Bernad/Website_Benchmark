@@ -1,0 +1,8 @@
+Test date - 21-Mar-2017
+Site being tested - http://www.gazeta.pl loaded in 0.49267387390137 sec
+Competitor 1 - http://www.apple.com loaded in 0.14892911911011 sec
+Competitor 2 - http://www.interia.pl loaded in 0.10205006599426 sec
+Competitor 3 - http://www.gazeta.pl loaded in 0.51515698432922 sec
+
+Benchmarked website is loaded twice as slow as at least one of competitors 
+

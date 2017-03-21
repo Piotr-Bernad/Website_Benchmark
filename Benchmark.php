@@ -13,7 +13,7 @@ namespace Benchmark;
 class Benchmark
 {
     const COMPETITORS = 'www.apple.com|www.interia.pl|www.gazeta.pl';
-    const REPORT_DIR = '/tmp/report';
+    const REPORT_DIR = __DIR__ . '/report';
     const EMAIL_RECIPIENT = 'bernad.p8@gmail.com';
     const SMS_RECIPIENT = '48514418167';
     const SMS_MESSAGE = 'WEBSITE BENCHMARK - report sent by e-mail';

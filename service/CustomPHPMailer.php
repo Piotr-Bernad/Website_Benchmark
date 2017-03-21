@@ -2,6 +2,7 @@
 namespace Service;
 
 require_once 'MailServiceInterface.php';
+require_once './Benchmark.php';
 require_once './vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
 require './vendor/autoload.php';
 
